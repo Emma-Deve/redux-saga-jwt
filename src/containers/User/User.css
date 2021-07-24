@@ -1,0 +1,42 @@
+.user-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user-info {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.user-portrait {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-position: 50%;
+  background-size: cover;
+  margin-top: 1.4rem;
+}
+
+.user-username {
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.user-entries {
+  width: 50%;
+}
